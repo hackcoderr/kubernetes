@@ -1,22 +1,33 @@
 # :sparkles: Kubernetes :sparkles:
 
 
-<img src="https://github.com/hackcoderr/images/blob/master/k8s.png" width="1100" height="500" alt=""> 
+<div align>
+	<img align="center" src="https://github.com/hackcoderr/images/blob/master/k8s.png" width="600" height="350" alt=""> 
+</div>
+
 
 ### :books: This repository is made for having all concepts, codes, and projects related to Kubernetes
 
 #
 
-**Repository has the following Docker Engine Projects**        
+**Repository has the following projects, codes of Kubernetes**        
          
- * Docker Images
-	 * httpd
-	  	* v1
+ * Replication
+	 * lb.yml
+	 * pod.yml
+	 
+* Secret
+	 * mysql.yml
+	 * secret.yml
+	  
 	  	
          
                           
 
-:small_orange_diamond: [**Docker Images**](https://github.com/hackcoderr/Docker/tree/master/docker_images) : *This Directory has Docker Images which created by me and I am continuely working on these docker images and improving them with different differnrt versions*
+:small_orange_diamond: [**Replication**](https://github.com/hackcoderr/Kubernetes/tree/main/Replication) : *This Directory has replca of load balancer and pod that will provide the precreated yml code for luanching the pod and loadbalancer.*
+
+:small_orange_diamond: [**Secret**](https://github.com/hackcoderr/Kubernetes/tree/main/Secret) : *This Directory has replca of mysql and secret that will provide the precreated yml code for luanching the mysql server and making the secret file.*
+
 
 #
 :loudspeaker:
