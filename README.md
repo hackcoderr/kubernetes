@@ -1,9 +1,9 @@
 # :sparkles: Kubernetes :sparkles:
 
 
-<div align>
-	<img align="center" src="https://github.com/hackcoderr/images/blob/master/k8s.png" width="600" height="350" alt=""> 
-</div>
+<div align="center">
+<img  src="https://github.com/hackcoderr/images/blob/master/k8s.png" width="800" height="400" alt=""> 
+</div>  
 
 
 ### :books: This repository is made for having all concepts, codes, and projects related to Kubernetes
@@ -19,7 +19,10 @@
 * Secret
 	 * mysql.yml
 	 * secret.yml
-	  
+	 
+* Troubleshoot
+	 * installation_error_windows.md	 
+
 	  	
          
                           
@@ -27,6 +30,8 @@
 :small_orange_diamond: [**Replication**](https://github.com/hackcoderr/Kubernetes/tree/main/Replication) : *This Directory has replca of load balancer and pod that will provide the precreated yml code for luanching the pod and loadbalancer.*
 
 :small_orange_diamond: [**Secret**](https://github.com/hackcoderr/Kubernetes/tree/main/Secret) : *This Directory has replca of mysql and secret that will provide the precreated yml code for luanching the mysql server and making the secret file.*
+
+:small_orange_diamond: [**Secret**](https://github.com/hackcoderr/Kubernetes/tree/main/Troubleshoot) : *This Directory has for troubleshooting which I have faced during my practise in the k8s.*
 
 
 #
