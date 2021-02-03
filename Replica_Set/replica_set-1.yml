@@ -1,0 +1,24 @@
+apiVersion: apps/v1
+kind: ReplicaSet
+metadata:
+  name: myweb-rs
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      env: prod
+    matchExpressions:
+      - { key: team, operator: IN, values: [ team1, team2] }
+      - { key: tier, operator: IN, values: [ fronted] }
+  template:
+    metadata:
+      name: "webpod4"
+      labels:
+        env: prod
+        team: team1
+        tier: fronted
+    spec:
+      containers:
+      - name: "webc1"
+        image: "vimal13/apache-webserver-php"
+
