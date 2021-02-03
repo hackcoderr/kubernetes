@@ -20,6 +20,11 @@
 	 * mysql.yml
 	 * secret.yml
 	 
+* Replica_Set
+   * replicaSet-1.yml
+  
+	 
+	 
 * Troubleshoot
 	 * installation_error_windows.md	 
 
