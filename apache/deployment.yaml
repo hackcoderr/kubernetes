@@ -1,0 +1,21 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: httpd-deployment
+  labels:
+    app: httpd_app
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: httpd_app
+  template:
+    metadata:
+      labels:
+        app: httpd_app
+    spec:
+      containers:
+        - name: httpd-container
+          image: hackcoderr/apache:v1
+          ports:
+            - containerPort: 80
